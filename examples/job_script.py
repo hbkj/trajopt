@@ -87,8 +87,8 @@ print("Time for trajectory optimization = %f seconds" %(timer.time()-ts))
 pickle.dump(trajectories, open(PICKLE_FILE, 'wb'))
 
 if VIZ:
-    _ = input("Press enter to display optimized trajectory (will be played 10 times) : ")
-    for i in range(10):
+    _ = input("Press enter to display optimized trajectory (will be played 5 times) : ")
+    for i in range(5):
         [traj.animate_result() for traj in trajectories]
 
 # =======================================

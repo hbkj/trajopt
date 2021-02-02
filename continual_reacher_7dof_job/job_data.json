@@ -1,0 +1,20 @@
+{
+    "seed": 12345,
+    "num_iter": 1,
+    "exp_notes": "7-DOF Sawyer arm reaching various spatial goals in a continual, reset-free, non-episodic setting.",
+    "kappa": 5.0,
+    "visualize": true,
+    "filter": {
+        "beta_0": 0.25,
+        "beta_1": 0.8,
+        "beta_2": 0.0
+    },
+    "env_name": "trajopt_continual_reacher-v0",
+    "gamma": 1.0,
+    "H_total": 500,
+    "num_traj": 1,
+    "plan_horizon": 16,
+    "num_cpu": 1,
+    "default_act": "mean",
+    "paths_per_cpu": 32
+}

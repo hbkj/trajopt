@@ -1,0 +1,20 @@
+{
+    "plan_horizon": 16,
+    "visualize": true,
+    "filter": {
+        "beta_1": 0.8,
+        "beta_0": 0.25,
+        "beta_2": 0.0
+    },
+    "gamma": 1.0,
+    "seed": 123,
+    "num_cpu": 1,
+    "kappa": 5.0,
+    "paths_per_cpu": 32,
+    "num_iter": 1,
+    "default_act": "mean",
+    "env_name": "trajopt_hdt_reacher-v0",
+    "H_total": 75,
+    "exp_notes": "6-DOF hdt angler arm reaching various spatial goals for the end effector.",
+    "num_traj": 3
+}

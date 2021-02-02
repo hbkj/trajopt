@@ -1,0 +1,20 @@
+{
+    "gamma": 1.0,
+    "default_act": "mean",
+    "filter": {
+        "beta_1": 0.8,
+        "beta_0": 0.25,
+        "beta_2": 0.0
+    },
+    "env_name": "trajopt_reacher-v0",
+    "seed": 123,
+    "num_cpu": 1,
+    "num_traj": 3,
+    "exp_notes": "7-DOF Sawyer arm reaching various spatial goals for the end effector.",
+    "kappa": 5.0,
+    "H_total": 75,
+    "num_iter": 1,
+    "paths_per_cpu": 32,
+    "visualize": true,
+    "plan_horizon": 16
+}
